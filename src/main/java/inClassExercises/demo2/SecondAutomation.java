@@ -1,4 +1,4 @@
-package InClassExercises.demo2;
+package inClassExercises.demo2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
