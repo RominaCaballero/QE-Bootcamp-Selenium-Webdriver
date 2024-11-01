@@ -1,4 +1,4 @@
-package HomeworkExercises.ExerciseOne;
+package homeworkExercises.exerciseOne;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
