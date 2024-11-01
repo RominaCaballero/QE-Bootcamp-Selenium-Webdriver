@@ -25,7 +25,7 @@ This repo contains all my homework and in class sessions of the automation and t
 ## Instructions on how to run the program
 1. **Clone the repository:**
    ```bash
-      git clone https://github.com/RominaCaballero/QE-Bootcamp.git
+      git clone https://github.com/RominaCaballero/QE-Bootcamp-Selenium-Webdriver.git
    ```
 2. Open the project in IntelliJ IDEA:
 
