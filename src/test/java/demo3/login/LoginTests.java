@@ -11,19 +11,19 @@ import java.time.Duration;
 
 import static org.junit.Assert.*;
 
-public class LoginTests {
+public class LoginTests extends BaseTest {
 
-    WebDriver driver;
-
-    @BeforeEach
-    public void setUp(){
-        driver = new ChromeDriver();
-    }
-
-    @AfterEach
-    public void clean() {
-        driver.quit();
-    }
+//    WebDriver driver;
+//
+//    @BeforeEach
+//    public void setUp(){
+//        driver = new ChromeDriver();
+//    }
+//
+//    @AfterEach
+//    public void clean() {
+//        driver.quit();
+//    }
 
     @Test
     public void testSuccesfulLogin() {
