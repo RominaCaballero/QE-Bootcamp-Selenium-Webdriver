@@ -16,6 +16,17 @@ public class BaseTestTwo {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
+        driver.manage().window().maximize();
+
+        driver.get("https://demo.applitools.com/");
+
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+
+        LoginPageTwo loginPage = new LoginPageTwo(driver);
+        loginPage.setUsername("admin");
+        loginPage.setPassword("admin123");
+        loginPage.clickLogin();
+
     }
 
     @AfterEach
