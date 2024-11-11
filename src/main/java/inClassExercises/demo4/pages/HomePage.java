@@ -3,10 +3,7 @@ package inClassExercises.demo4.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
 import java.util.NoSuchElementException;
@@ -52,5 +49,13 @@ public class HomePage {
                 break;
             }
         }
+    }
+
+    public void sortItems(String optionText){
+        WebElement selectDropDown = driver.findElement(By.name("orderby"));
+        Select select = new Select(selectDropDown);
+
+        select.selectByVisibleText(optionText);
+
     }
 }
