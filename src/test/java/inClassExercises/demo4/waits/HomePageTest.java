@@ -16,4 +16,11 @@ public class HomePageTest extends BaseTest {
         assertEquals("https://demos.bellatrix.solutions/cart/", driver.getCurrentUrl());
 
     }
+
+    @Test
+    public void shouldSelectAnOption() {
+        driver.get("https://demos.bellatrix.solutions/");
+        HomePage homePage = new HomePage(driver);
+        homePage.sortItems("Sort by price: low to high");
+    }
 }
