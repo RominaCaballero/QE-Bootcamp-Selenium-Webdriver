@@ -1,4 +1,4 @@
-package demo4.waits;
+package inClassExercises.demo4.waits;
 
 import inClassExercises.demo4.pages.HomePage;
 import org.junit.Test;

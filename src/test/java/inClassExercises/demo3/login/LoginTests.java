@@ -1,12 +1,9 @@
-package demo3.login;
+package inClassExercises.demo3.login;
 
 import inClassExercises.demo3.HomePage;
 import inClassExercises.demo3.LoginPage;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import java.time.Duration;
 
 import static org.junit.Assert.*;

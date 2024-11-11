@@ -1,12 +1,10 @@
-package demo3.login;
+package inClassExercises.demo3.login;
 
 import inClassExercises.demo3.HomePage;
 import inClassExercises.demo3.LoginPage;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
